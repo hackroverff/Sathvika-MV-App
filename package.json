@@ -1,0 +1,20 @@
+{
+  "name": "sathvika-mv",
+  "version": "1.0.0",
+  "description": "Sathvika MV - grocery & wholesale store PWA (Phase 1)",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "reset": "node server/seed.js",
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pdfkit": "^0.20.2",
+    "qrcode": "^1.5.4"
+  }
+}
